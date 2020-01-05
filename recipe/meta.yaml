@@ -2,7 +2,7 @@
 {% set version = "0.15.1" %}
 
 package:
-  name: java-{{ name|lower }}-with-dependencies
+  name: java-{{ name|lower }}
   version: {{ version }}
 
 source:

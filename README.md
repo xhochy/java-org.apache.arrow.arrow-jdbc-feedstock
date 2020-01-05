@@ -1,5 +1,5 @@
-About java-org.apache.arrow.arrow-jdbc-with-dependencies
-========================================================
+About java-org.apache.arrow.arrow-jdbc
+======================================
 
 Home: https://arrow.apache.org/
 
@@ -17,8 +17,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8785&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/java-org.apache.arrow.arrow-jdbc-with-dependencies-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/java-org.apache.arrow.arrow-jdbc-feedstock?branchName=master">
       </a>
     </td>
   </tr>
@@ -29,27 +29,27 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-java--org.apache.arrow.arrow--jdbc--with--dependencies-green.svg)](https://anaconda.org/conda-forge/java-org.apache.arrow.arrow-jdbc-with-dependencies) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/java-org.apache.arrow.arrow-jdbc-with-dependencies.svg)](https://anaconda.org/conda-forge/java-org.apache.arrow.arrow-jdbc-with-dependencies) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/java-org.apache.arrow.arrow-jdbc-with-dependencies.svg)](https://anaconda.org/conda-forge/java-org.apache.arrow.arrow-jdbc-with-dependencies) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/java-org.apache.arrow.arrow-jdbc-with-dependencies.svg)](https://anaconda.org/conda-forge/java-org.apache.arrow.arrow-jdbc-with-dependencies) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-java--org.apache.arrow.arrow--jdbc-green.svg)](https://anaconda.org/conda-forge/java-org.apache.arrow.arrow-jdbc) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/java-org.apache.arrow.arrow-jdbc.svg)](https://anaconda.org/conda-forge/java-org.apache.arrow.arrow-jdbc) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/java-org.apache.arrow.arrow-jdbc.svg)](https://anaconda.org/conda-forge/java-org.apache.arrow.arrow-jdbc) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/java-org.apache.arrow.arrow-jdbc.svg)](https://anaconda.org/conda-forge/java-org.apache.arrow.arrow-jdbc) |
 
-Installing java-org.apache.arrow.arrow-jdbc-with-dependencies
-=============================================================
+Installing java-org.apache.arrow.arrow-jdbc
+===========================================
 
-Installing `java-org.apache.arrow.arrow-jdbc-with-dependencies` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `java-org.apache.arrow.arrow-jdbc` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `java-org.apache.arrow.arrow-jdbc-with-dependencies` can be installed with:
+Once the `conda-forge` channel has been enabled, `java-org.apache.arrow.arrow-jdbc` can be installed with:
 
 ```
-conda install java-org.apache.arrow.arrow-jdbc-with-dependencies
+conda install java-org.apache.arrow.arrow-jdbc
 ```
 
-It is possible to list all of the versions of `java-org.apache.arrow.arrow-jdbc-with-dependencies` available on your platform with:
+It is possible to list all of the versions of `java-org.apache.arrow.arrow-jdbc` available on your platform with:
 
 ```
-conda search java-org.apache.arrow.arrow-jdbc-with-dependencies --channel conda-forge
+conda search java-org.apache.arrow.arrow-jdbc --channel conda-forge
 ```
 
 
@@ -91,17 +91,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating java-org.apache.arrow.arrow-jdbc-with-dependencies-feedstock
-=====================================================================
+Updating java-org.apache.arrow.arrow-jdbc-feedstock
+===================================================
 
-If you would like to improve the java-org.apache.arrow.arrow-jdbc-with-dependencies recipe or build a new
+If you would like to improve the java-org.apache.arrow.arrow-jdbc recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/java-org.apache.arrow.arrow-jdbc-with-dependencies-feedstock are
+Note that all branches in the conda-forge/java-org.apache.arrow.arrow-jdbc-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
